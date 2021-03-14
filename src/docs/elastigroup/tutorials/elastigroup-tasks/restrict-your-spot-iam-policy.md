@@ -10,7 +10,7 @@ An example for each case is shown below.
 
 ## Example 1
 
-In case you want to restrict the policy to a specific VPC you can add the following condition:
+In case you want to restrict an EC2 resource in the policy to a specific VPC you can add the following condition:
 
 ```
 {
