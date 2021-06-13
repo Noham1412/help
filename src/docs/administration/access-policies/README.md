@@ -30,8 +30,6 @@ A statement contains the following elements:
   - `–` all resources.
   - `elastigroup:*` – all Elastigroup resources.
   - `elastigroup:sig-214*` – all groups starting with `sig-214`.
-- Condition – Allows resource selection by name. Example:
-  `"name": "prod-*"` – All resources whose name starts with `prod-`.
 
 ## Policy Content Example
 
@@ -43,7 +41,7 @@ A statement contains the following elements:
       "Actions": ["elastigroup:describeAllGroups"],
       "Resources": ["*"],
       "Condition": {
-        "name": "prod-*"
+        "name": null
       }
     }
   ]
