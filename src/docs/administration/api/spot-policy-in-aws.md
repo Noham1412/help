@@ -60,16 +60,15 @@ For additional information, see: [Update the Spot Policy](elastigroup/tutorials/
         "elasticloadbalancing:Register*",
         "elasticloadbalancing:RemoveTags",
         "elasticloadbalancing:RegisterTargets",
-        "elasticloadbalancing:CreateTargetGroup",
-        "elasticloadbalancing:ModifyTargetGroup",
-        "elasticloadbalancing:DeleteTargetGroup",
-        "elasticloadbalancing:CreateRule",
-        "elasticloadbalancing:ModifyRule",
-        "elasticloadbalancing:DeleteRule",
-        "elasticloadbalancing:SetRulePriorities",
         "elasticloadbalancing:EnableAvailabilityZonesForLoadBalancer",
         "elasticloadbalancing:DisableAvailabilityZonesForLoadBalancer",
-        "elasticloadbalancing:DescribeTags"
+        "elasticloadbalancing:DescribeTags",
+        "elasticloadbalancing:CreateTargetGroup",
+        "elasticloadbalancing:DeleteTargetGroup",
+        "elasticloadbalancing:ModifyRule",
+        "elasticloadbalancing:AddTags",
+        "elasticloadbalancing:ModifyTargetGroupAttributes",
+        "elasticloadbalancing:ModifyTargetGroup
       ],
       "Effect": "Allow",
       "Resource": ["*"]
